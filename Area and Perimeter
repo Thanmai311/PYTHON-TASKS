@@ -1,0 +1,13 @@
+# Program to calculate area and perimeter of a rectangle
+
+# Assigning values to length and width
+length = int(input())
+width = int(input())
+
+# Calculating area and perimeter
+area = length * width
+perimeter = 2 * (length + width)
+
+# Printing the results
+print("Area of the rectangle:", area)
+print("Perimeter of the rectangle:", perimeter)
